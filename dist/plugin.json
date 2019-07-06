@@ -1,0 +1,35 @@
+{
+  "name": "UIMDatasource",
+  "id": "uim-grafana-datasource",
+  "type": "datasource",
+
+  "partials": {
+    "config": "public/app/plugins/datasource/simplejson/partials/config.html"
+  },
+
+  "metrics": true,
+  "annotations": true,
+
+  "info": {
+    "description": "grafana ca uim datasource",
+    "author": {
+      "name": "Hirzani",
+      "url": "http://medim.com/@hirzani"
+    },
+    "logos": {
+      "small": "img/uimds_logo.svg",
+      "large": "img/uimds_logo.svg"
+    },
+    "links": [
+      {"name": "GitHub", "url": "https://github.com/grafana/simple-json-datasource"},
+      {"name": "MIT License", "url": "https://github.com/grafana/simple-json-datasource/blob/master/LICENSE"}
+    ],
+    "version": "1.4.0",
+    "updated": "2018-06-20"
+  },
+
+  "dependencies": {
+    "grafanaVersion": "3.x.x",
+    "plugins": [ ]
+  }
+}
